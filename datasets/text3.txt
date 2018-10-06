@@ -1,0 +1,11 @@
+DockerCon is all about the users,
+and on June 12-15th thousands of
+Docker users, the entire Docker community
+and ecosystem, will be taking over San Francisco
+to learn, network and collaborate. From beginner
+to expert, don’t miss the opportunity to congregate with
+the brightest minds and talk about all things containers,
+container platform and management including networking,
+storage, security, orchestration with Swarm and Kubernetes,
+creating effective Docker images, machine learning, modernizing
+applications and more.
