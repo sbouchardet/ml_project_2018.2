@@ -1,0 +1,358 @@
+ 
+ 
+ 
+@article{FredAgarap2017,
+abstract = {Convolutional neural networks (CNNs) are similar to "ordinary" neural networks in the sense that they are made up of hidden layers consisting of neurons with "learnable" parameters. These neurons receive inputs, performs a dot product, and then follows it with a non-linearity. The whole network expresses the mapping between raw image pixels and their class scores. Conventionally, the Softmax function is the classifier used at the last layer of this network. However, there have been studies [2, 3, 11] conducted to challenge this norm. The cited studies introduce the usage of linear support vector machine (SVM) in an artificial neural network architecture. This project is yet another take on the subject, and is inspired by [11]. Empirical data has shown that the CNN-SVM model was able to achieve a test accuracy of ≈99.04{\%} using the MNIST dataset[10]. On the other hand, the CNN-Softmax was able to achieve a test accuracy of ≈99.23{\%} using the same dataset. Both models were also tested on the recently-published Fashion-MNIST dataset[13], which is suppose to be a more difficult image classification dataset than MNIST[15]. This proved to be the case as CNN-SVM reached a test accuracy of ≈90.72{\%}, while the CNN-Softmax reached a test accuracy of ≈91.86{\%}. The said results may be improved if data preprocessing techniques were employed on the datasets, and if the base CNN model was a relatively more sophisticated than the one used in this study.},
+annote = {CNN + SVM},
+archivePrefix = {arXiv},
+arxivId = {1712.03541v1},
+author = {{Fred Agarap}, Abien M},
+eprint = {1712.03541v1},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Fred Agarap - Unknown - An Architecture Combining Convolutional Neural Network (CNN) and Support Vector Machine (SVM) for Image Classifi.pdf:pdf},
+keywords = {CCS CONCEPTS • Computing methodologies → Supervise,KEYWORDS artificial intelligence,Neural networks,Support vector machines,artificial neural networks,classification,im-age classification,machine learning,mnist dataset,softmax,super-vised learning,support vector machine},
+title = {{An Architecture Combining Convolutional Neural Network (CNN) and Support Vector Machine (SVM) for Image Classification}},
+url = {https://github.com/AFAgarap/cnn-},
+year = {2017}
+}
+@article{Sato2015,
+abstract = {Deep neural networks have been exhibiting splendid accuracies in many of visual pattern classification problems. Many of the state-of-the-art methods employ a technique known as data augmentation at the training stage. This paper addresses an issue of decision rule for classifiers trained with augmented data. Our method is named as APAC: the Augmented PAttern Classification, which is a way of classification using the optimal decision rule for augmented data learning. Discussion of methods of data augmentation is not our primary focus. We show clear evidences that APAC gives far better generalization performance than the traditional way of class prediction in several experiments. Our convolutional neural network model with APAC achieved a state-of-the-art accuracy on the MNIST dataset among non-ensemble classifiers. Even our multilayer perceptron model beats some of the convolutional models with recently invented stochastic regularization techniques on the CIFAR-10 dataset.},
+annote = {CNN},
+archivePrefix = {arXiv},
+arxivId = {1505.03229},
+author = {Sato, Ikuro and Nishimura, Hiroki and Yokoi, Kensuke},
+eprint = {1505.03229},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Sato, Nishimura, Yokoi - Unknown - APAC Augmented PAttern Classification with Neural Networks.pdf:pdf},
+title = {{APAC: Augmented PAttern Classification with Neural Networks}},
+url = {https://arxiv.org/pdf/1505.03229.pdf http://arxiv.org/abs/1505.03229},
+year = {2015}
+}
+@article{Mahmoud2014,
+abstract = {In this paper, results of an experimental study of a deep convolution neural network architecture which can classify different handwritten digits using EBLearn library are reported. The purpose of this neural network is to classify input images into 10 different classes or digits (0-9) and to explore new findings. The input dataset used consists of digits images of size 32X32 in grayscale (MNIST dataset).},
+annote = {Incompleto. CNN},
+archivePrefix = {arXiv},
+arxivId = {1307.3782},
+author = {Mahmoud, Karim M},
+eprint = {1307.3782},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Mahmoud - Unknown - Handwritten Digits Recognition using Deep Convolutional Neural Network An Experimental Study using EBlearn.pdf:pdf},
+keywords = {convolution neural network,eblearn,handwritten digits},
+pages = {3--6},
+title = {{Handwritten Digits Recognition using Deep Convolutional Neural Network: An Experimental Study using EBlearn}},
+url = {http://sites.google.com/site/convnetexp/ http://arxiv.org/abs/1307.3782},
+year = {2014}
+}
+@article{Tomczak2017,
+abstract = {The subspace restricted Boltzmann machine (subspaceRBM) is a third-order Boltzmann machine where multiplicative interactions are between one visible and two hidden units. There are two kinds of hidden units, namely, gate units and subspace units. The sub-space units reflect variations of a pattern in data and the gate unit is responsible for activating the subspace units. Additionally, the gate unit can be seen as a pooling feature. We evaluate the behavior of subspaceRBM through experiments with MNIST digit recognition task and Caltech 101 Silhouettes image corpora, measuring cross-entropy reconstruction error and classification error.},
+annote = {RBM},
+author = {Tomczak, Jakub M and Gonczarek, Adam},
+doi = {10.1007/s11063-016-9519-9},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Tomczak, Gonczarek - 2017 - Learning Invariant Features Using Subspace Restricted Boltzmann Machine.pdf:pdf},
+journal = {Neural Processing Letters},
+keywords = {Deep model,Feature learning,Invariant features,Subspace features,Unsupervised learning},
+pages = {173--182},
+title = {{Learning Invariant Features Using Subspace Restricted Boltzmann Machine}},
+url = {https://link.springer.com/content/pdf/10.1007{\%}2Fs11063-016-9519-9.pdf},
+volume = {45},
+year = {2017}
+}
+@article{Sharma2015,
+abstract = {(ProQuest: ... denotes formulae and/or non-USASCII text omitted; see image) The recent advances in the feature extraction techniques in recognition of handwritten digits attract researchers to work in this area. The present study includes recognition of handwritten digits using hybrid feature extraction technique including static and dynamic properties of handwritten digit images. In this paper, static properties include number of non-zero (white) pixels in square, horizontal, vertical and diagonal styles as sub regions of a binary image. The dynamic properties include features from recovery of drawing order of original image. The extraction of dynamic features include two stages: first stage recover the drawing order of an image and second stage compute the chain code directions from recovered drawing order. The algorithm for recovery of drawing order uses properties of writing behavior. The support vector machine has been used as recognition method for the proposed feature extraction scheme. We have achieved an overall error rate of 0.73 {\%} for mnist data set including 60,000 training images and 10,000 test images. Our feature extraction technique results in feature vector length of an image equals to 356. The achieved results strengthen our proposed technique usability as error rate achieved is at par with literature (......1 {\%}) and the length of feature vector per image is small in comparison to input feature vector length of 784 which has been commonly used in previous work. The developed system is stable and useful in real life applications.},
+author = {Sharma, Anuj},
+doi = {10.1007/s40595-014-0038-1},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Sharma, Sharma - 2015 - A combined static and dynamic feature extraction technique to recognize handwritten digits.pdf:pdf},
+issn = {2196-8888},
+journal = {Vietnam Journal of Computer Science},
+keywords = {Chain codes,Offline and online handwriting,Recovery of drawing order,Support vector machine},
+number = {3},
+pages = {133--142},
+title = {{A combined static and dynamic feature extraction technique to recognize handwritten digits}},
+url = {https://link.springer.com/content/pdf/10.1007{\%}2Fs40595-014-0038-1.pdf http://link.springer.com/10.1007/s40595-014-0038-1},
+volume = {2},
+year = {2015}
+}
+@techreport{Gan2014,
+abstract = {To simplify the parameter of the deep learning network, a cascaded compressive sensing model "CSNet" is implemented for image classification. Firstly, we use cascaded compressive sensing network to learn feature from the data. Secondly, CSNet generates the feature by binary hashing and block-wise histograms. Finally, a linear SVM classifier is used to classify these features. The experiments on the MNIST dataset indicate that higher classification accuracy can be obtained by this algorithm.},
+annote = {CSNet},
+archivePrefix = {arXiv},
+arxivId = {1409.7307v1},
+author = {Gan, Yufei and Zhuo, Tong and He, Chu},
+eprint = {1409.7307v1},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Gan, Zhuo, He - Unknown - Image Classification with A Deep Network Model based on Compressive Sensing.pdf:pdf},
+keywords = {Compressive Sensing,Deep Learning,Handwritten Digit Recognition},
+title = {{Image Classification with A Deep Network Model based on Compressive Sensing}},
+url = {https://arxiv.org/pdf/1409.7307.pdf},
+year = {2014}
+}
+@techreport{Saavedra2014,
+abstract = {In order to increase the performance in the handwritten digit recognition field, researchers commonly combine a variety of features to represent a pattern. This approach has showed to be very effective in practice. The classical approach to combine features is by concatenating the underlying feature vectors. A drawback of this approach is that it could generate high-dimensional descriptors, which increases the complexity of the training process. Instead, we propose to use a pooling based classifier, that allow us to get not only a faster training process but also outperforming results. For evaluation, we used two state-of-the-art handwritten digit datasets: CVL and MNIST. In addition, we show that a simple rectangular spatial division, that characterize our descriptors, yields competitive results and a smaller computation cost with respect to other more complex zoning techniques.},
+annote = {pooling + SVM},
+author = {Saavedra, Jose M},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Saavedra - Unknown - LNCS 8827 - Handwritten Digit Recognition Based on Pooling SVM-Classifiers Using Orientation and Concavity Based Fe.pdf:pdf},
+title = {{Handwritten Digit Recognition Based on Pooling SVM-Classifiers Using Orientation and Concavity Based Features}},
+url = {https://link.springer.com/content/pdf/10.1007{\%}2F978-3-319-12568-8{\_}80.pdf},
+year = {2014}
+}
+@article{Toghi2018,
+abstract = {The MNIST dataset of the handwritten digits is known as one of the commonly used datasets for machine learning and computer vision research. We aim a widely applicable classification problem and apply a simple but still efficient K-nearest neighbor classifier with an enhanced heuristic. We evaluate the performance of the K-nearest neighbor classification algorithm on the MNIST dataset where the L2 Euclidean distance metric is compared to a modified distance metric which utilizes the sliding window technique in order to avoid performance degradation due to slight spatial misalignment. Accuracy metric and confusion matrices are used as the performance indicators to compare the performance of the baseline algorithm versus the enhanced sliding window method and results show significant improvement using this simple method.},
+annote = {KNN},
+archivePrefix = {arXiv},
+arxivId = {1809.06846v2},
+author = {Toghi, Behrad and Grover, Divas},
+eprint = {1809.06846v2},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Toghi, Grover - Unknown - MNIST Dataset Classification Utilizing k-NN Classifier with Modified Sliding Window Metric(3).pdf:pdf},
+keywords = {classifier model,handwritten dataset,k-nearest,knn,mnist dataset,neighbor,sliding window},
+pages = {1--4},
+title = {{MNIST Dataset Classification Utilizing k-NN Classifier with Modified Sliding Window Metric}},
+url = {https://arxiv.org/pdf/1809.06846.pdf},
+year = {2018}
+}
+@article{Tomczak2018,
+abstract = {This paper introduces a new approach to maximum likelihood learning of the parameters of a restricted Boltzmann machine (RBM). The proposed method is based on the Perturb-and-MAP (PM) paradigm that enables sampling from the Gibbs distribution. PM is a two step process: (i) perturb the model using Gumbel perturbations, then (ii) find the maximum a posteriori (MAP) assignment of the perturbed model. We show that under certain conditions the resulting MAP configuration of the perturbed model is an unbiased sample from the original distribution. However, this approach requires an exponential number of perturbations, which is computationally intractable. Here, we apply an approximate approach based on the first order (low-dimensional) PM to calculate the gradient of the log-likelihood in binary RBM. Our approach relies on optimizing the energy function with respect to observable and hidden variables using a greedy procedure. First, for each variable we determine whether flipping this value will decrease the energy, and then we utilize the new local maximum to approximate the gradient. Moreover, we show that in some cases our approach works better than the standard coordinate-descent procedure for finding the MAP assignment and compare it with the Contrastive Divergence algorithm. We investigate the quality of our approach empirically, first on toy problems, then on various image datasets and a text dataset.},
+author = {Tomczak, Jakub M and Szymon, {\textperiodcentered} and Eba, Zar and Ravanbakhsh, Siamak and Greiner, {\textperiodcentered} Russell and Jakub, B and Tomczak, M and Zare, Szymon and Greiner, Russell and Tomczak, J M},
+doi = {10.1007/s11063-018-9923-4},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Tomczak et al. - Unknown - Low-Dimensional Perturb-and-MAP Approach for Learning Restricted Boltzmann Machines.pdf:pdf},
+journal = {Neural Processing Letters},
+keywords = {Greedy optimization,Gumbel perturbation,Restricted Boltzmann machine,Unsupervised deep learning},
+title = {{Low-Dimensional Perturb-and-MAP Approach for Learning Restricted Boltzmann Machines}},
+url = {https://doi.org/10.1007/s11063-018-9923-4},
+year = {2018}
+}
+@article{Tomczak2016,
+abstract = {{\textcopyright} 2015, The Author(s). In recent years deep learning paradigm achieved important empirical success in a number of practical applications such as object recognition, speech recognition and natural language processing. A lot of effort has been put on understanding theoretical aspects of this success, however, still there is no common view on how deep architectures should be trained and thus many open questions remain. One hypothesis focuses on formulating good criterion (prior) that may help to learn a set of features capable of disentangling hidden factors. Following this line of thinking, in this paper, we propose to add a penalty (regularization) term to the log-likelihood function that enforces hidden units to maximize entropy and to be pairwise uncorrelated, for given observables. We hypothesize that the proposed framework for learning informative features results in more discriminative data representation that maintains its generative capabilities. In order to verify our hypothesis we apply the regularization term to the Restricted Boltzmann Machine (RBM) and carry out empirical study on three classification problems: character recognition, object recognition, and document classification. The experiments confirm that the proposed approach indeed increases discriminative and generative performance in comparison to RBM trained without any regularization and with the weight-decay, the sparse regularization, the max-norm regularization, Dropout and Dropconnect.},
+author = {Tomczak, Jakub M},
+doi = {10.1007/s11063-015-9491-9},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Tomczak - 2016 - Learning Informative Features from Restricted Boltzmann Machines.pdf:pdf},
+issn = {1573773X},
+journal = {Neural Processing Letters},
+keywords = {Entropy-based regularization,Orthonormality regularization,Restricted Boltzmann machine,Unsupervised learning},
+number = {3},
+pages = {735--750},
+title = {{Learning Informative Features from Restricted Boltzmann Machines}},
+url = {https://link.springer.com/content/pdf/10.1007{\%}2Fs11063-015-9491-9.pdf},
+volume = {44},
+year = {2016}
+}
+@article{Turchenko2017,
+abstract = {This paper presents the development of several models of a deep convolutional auto-encoder in the Caffe deep learning framework and their experimental evaluation on the example of MNIST dataset. We have created five models of a convolutional auto-encoder which differ architecturally by the presence or absence of pooling and unpooling layers in the auto-encoder's encoder and decoder parts. Our results show that the developed models provide very good results in dimensionality reduction and unsupervised clustering tasks, and small classification errors when we used the learned internal code as an input of a supervised linear classifier and multi-layer perceptron. The best results were provided by a model where the encoder part contains convolutional and pooling layers, followed by an analogous decoder part with deconvolution and unpooling layers without the use of switch variables in the decoder part. The paper also discusses practical details of the creation of a deep convolutional auto-encoder in the very popular Caffe deep learning framework. We believe that our approach and results presented in this paper could help other researchers to build efficient deep neural network architectures in the future.},
+annote = {Convolu{\c{c}}{\~{a}}o + Auto-encoder},
+archivePrefix = {arXiv},
+arxivId = {1701.04949},
+author = {Turchenko, Volodymyr and Chalmers, Eric and Luczak, Artur},
+eprint = {1701.04949},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Turchenko, Chalmers, Luczak - Unknown - A Deep Convolutional Auto-Encoder with Pooling-Unpooling Layers in Caffe.pdf:pdf},
+issn = {0379-5721},
+keywords = {Deep convolutional auto-encoder,dimensionality reduction,machine learning,neural networks,unsupervised clustering},
+title = {{A Deep Convolutional Auto-Encoder with Pooling - Unpooling Layers in Caffe}},
+url = {https://arxiv.org/pdf/1701.04949.pdf http://arxiv.org/abs/1701.04949},
+year = {2017}
+}
+
+@article{Alwzwazy2007,
+abstract = {Recently handwritten digit recognition becomes vital scope and it is appealing many researchers because of its using in variety of machine learning and computer vision applications. However, there are deficient works accomplished on Arabic pattern digits because Arabic digits are more challenging than English patterns. Hence, the lacking research of using Arabic digits endeavours us to dig deeper by creating our challenge Arabic Handwritten Digits which consists of more than 45,000 samples. As a challenging dataset is used for evaluation, a robust deep convolutional neural network is used for classification and superior results are achieved.},
+author = {Alwzwazy, Haider A and Albehadili, Hayder M and Alwan, Younes S and Islam, Naz E and Student, Me},
+doi = {10.15680/IJIRCCE.2016},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Alwzwazy et al. - 2007 - Handwritten Digit Recognition Using Convolutional Neural Networks.pdf:pdf},
+issn = {2320-9798},
+journal = {International Journal of Innovative Research in Computer and Communication Engineering (An ISO},
+keywords = {Arabic Handwritten Digits,Handwritten Digit Recognition},
+mendeley-groups = {INF2710},
+number = {2},
+title = {{Handwritten Digit Recognition Using Convolutional Neural Networks}},
+url = {http://www.rroij.com/open-access/handwritten-digit-recognition-using-convolutional-neural-networks-10-15680IJIRCCE-2016- 0402001.pdf},
+volume = {3297},
+year = {2016}
+}
+
+@article{Kerenidis2018,
+abstract = {Quantum machine learning carries the promise to revolutionize information and communication technologies. While a number of quantum algorithms with potential exponential speedups have been proposed already, it is quite difficult to provide convincing evidence that quantum computers with quantum memories will be in fact useful to solve real-world problems. Our work makes considerable progress towards this goal. We design quantum techniques for Dimensionality Reduction and for Classification, and combine them to provide an efficient and high accuracy quantum classifier that we test on the MNIST dataset. More precisely, we propose a quantum version of Slow Feature Analysis (QSFA), a dimensionality reduction technique that maps the dataset in a lower dimensional space where we can apply a novel quantum classification procedure, the Quantum Frobenius Distance (QFD). We simulate the quantum classifier (including errors) and show that it can provide classification of the MNIST handwritten digit dataset, a widely used dataset for benchmarking classification algorithms, with {\$}98.5\backslash{\%}{\$} accuracy, similar to the classical case. The running time of the quantum classifier is polylogarithmic in the dimension and number of data points. We also provide evidence that the other parameters on which the running time depends (condition number, Frobenius norm, error threshold, etc.) scale favorably in practice, thus ascertaining the efficiency of our algorithm.},
+archivePrefix = {arXiv},
+arxivId = {1805.08837},
+author = {Kerenidis, Iordanis and Luongo, Alessandro},
+eprint = {1805.08837},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Kerenidis, Luongo - Unknown - Quantum classification of the MNIST dataset via Slow Feature Analysis.pdf:pdf},
+mendeley-groups = {INF2710,INF2710/systematicMapping/arXiv},
+title = {{Quantum classification of the MNIST dataset via Slow Feature Analysis}},
+url = {https://arxiv.org/pdf/1805.08837.pdf http://arxiv.org/abs/1805.08837},
+year = {2018}
+}
+
+@article{Javed2018,
+abstract = {One of the key differences between the learning mechanism of humans and Artificial Neural Networks (ANNs) is the ability of humans to learn one task at a time. ANNs, on the other hand, can only learn multiple tasks simultaneously. Any attempts at learning new tasks incrementally cause them to completely forget about previous tasks. This lack of ability to learn incrementally, called Catastrophic Forgetting, is considered a major hurdle in building a true AI system. In this paper, our goal is to isolate the truly effective existing ideas for incremental learning from those that only work under certain conditions. To this end, we first thoroughly analyze the current state of the art (iCaRL) method for incremental learning and demonstrate that the good performance of the system is not because of the reasons presented in the existing literature. We conclude that the success of iCaRL is primarily due to knowledge distillation and recognize a key limitation of knowledge distillation, i.e, it often leads to bias in classifiers. Finally, we propose a dynamic threshold moving algorithm that is able to successfully remove this bias. We demonstrate the effectiveness of our algorithm on CIFAR100 and MNIST datasets showing near-optimal results. Our implementation is available at https://github.com/Khurramjaved96/incremental-learning.},
+archivePrefix = {arXiv},
+arxivId = {1807.02802},
+author = {Javed, Khurram and Shafait, Faisal},
+eprint = {1807.02802},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Javed, Shafait - Unknown - Revisiting Distillation and Incremental Classifier Learning(2).pdf:pdf},
+mendeley-groups = {INF2710,INF2710/systematicMapping/arXiv},
+title = {{Revisiting Distillation and Incremental Classifier Learning}},
+url = {https://github.com/Khurramjaved96/ http://arxiv.org/abs/1807.02802},
+year = {2018}
+}
+
+@article{Peng2018,
+abstract = {Adversarial examples are perturbed inputs designed to fool machine learning models. Most recent works on adversarial examples for image classification focus on directly modifying pixels with minor perturbations. A common requirement in all these works is that the malicious perturbations should be small enough (measured by an {\$}L{\_}p{\$} norm for some {\$}p{\$}) so that they are imperceptible to humans. However, small perturbations can be unnecessarily restrictive and limit the diversity of adversarial examples generated. Further, an {\$}L{\_}p{\$} norm based distance metric ignores important structure patterns hidden in images that are important to human perception. Consequently, even the minor perturbation introduced in recent works often makes the adversarial examples less natural to humans. More importantly, they often do not transfer well and are therefore less effective when attacking black-box models especially for those protected by a defense mechanism. In this paper, we propose a structure-preserving transformation (SPT) for generating natural and diverse adversarial examples with extremely high transferability. The key idea of our approach is to allow perceptible deviation in adversarial examples while keeping structure patterns that are central to a human classifier. Empirical results on the MNIST and the fashion-MNIST datasets show that adversarial examples generated by our approach can easily bypass strong adversarial training. Further, they transfer well to other target models with no loss or little loss of successful attack rate.},
+archivePrefix = {arXiv},
+arxivId = {1809.02786},
+author = {Peng, Dan and Zheng, Zizhan and Zhang, Xiaofeng},
+eprint = {1809.02786},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Peng, Zheng, Zhang - Unknown - Structure-Preserving Transformation Generating Diverse and Transferable Adversarial Examples(3).pdf:pdf},
+isbn = {1809.02786v1},
+mendeley-groups = {INF2710,INF2710/systematicMapping/arXiv},
+title = {{Structure-Preserving Transformation: Generating Diverse and Transferable Adversarial Examples}},
+url = {www.aaai.org http://arxiv.org/abs/1809.02786},
+year = {2018}
+}
+
+@article{MNIST2010,
+  added-at = {2010-06-28T21:16:30.000+0200},
+  author = {LeCun, Yann and Cortes, Corinna},
+  biburl = {https://www.bibsonomy.org/bibtex/2935bad99fa1f65e03c25b315aa3c1032/mhwombat},
+  groups = {public},
+  howpublished = {http://yann.lecun.com/exdb/mnist/},
+  interhash = {21b9d0558bd66279df9452562df6e6f3},
+  intrahash = {935bad99fa1f65e03c25b315aa3c1032},
+  keywords = {MSc _checked character_recognition mnist network neural},
+  lastchecked = {2016-01-14 14:24:11},
+  timestamp = {2016-07-12T19:25:30.000+0200},
+  title = {{MNIST} handwritten digit database},
+  url = {http://yann.lecun.com/exdb/mnist/},
+  username = {mhwombat},
+  year=2010}
+  
+@inproceedings{Karatzas2013,
+ author = {Karatzas, Dimosthenis and Shafait, Faisal and Uchida, Seiichi and Iwamura, Masakazu and Bigorda, Lluis Gomez i. and Mestre, Sergi Robles and Mas, Joan and Mota, David Fernandez and Almaz\`{a}n, Jon Almaz\`{a}n and de las Heras, Llu\'{\i}s Pere},
+ title = {ICDAR 2013 Robust Reading Competition},
+ booktitle = {Proceedings of the 2013 12th International Conference on Document Analysis and Recognition},
+ series = {ICDAR '13},
+ year = {2013},
+ isbn = {978-0-7695-4999-6},
+ pages = {1484--1493},
+ numpages = {10},
+ url = {https://doi.org/10.1109/ICDAR.2013.221},
+ doi = {10.1109/ICDAR.2013.221},
+ acmid = {2549448},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+ keywords = {robust reading, scene text, text extraction, text localization, text segmentation, text recognition, video},
+}
+
+@article{Wang2018,
+abstract = {Deep neural networks (DNNs) are known vulnerable to adversarial attacks. That is, adversarial examples, obtained by adding delicately crafted distortions onto original legal inputs, can mislead a DNN to classify them as any target labels. This work provides a solution to hardening DNNs under adversarial attacks through defensive dropout. Besides using dropout during training for the best test accuracy, we propose to use dropout also at test time to achieve strong defense effects. We consider the problem of building robust DNNs as an attacker-defender two-player game, where the attacker and the defender know each others' strategies and try to optimize their own strategies towards an equilibrium. Based on the observations of the effect of test dropout rate on test accuracy and attack success rate, we propose a defensive dropout algorithm to determine an optimal test dropout rate given the neural network model and the attacker's strategy for generating adversarial examples.We also investigate the mechanism behind the outstanding defense effects achieved by the proposed defensive dropout. Comparing with stochastic activation pruning (SAP), another defense method through introducing randomness into the DNN model, we find that our defensive dropout achieves much larger variances of the gradients, which is the key for the improved defense effects (much lower attack success rate). For example, our defensive dropout can reduce the attack success rate from 100{\%} to 13.89{\%} under the currently strongest attack i.e., C{\&}W attack on MNIST dataset.},
+archivePrefix = {arXiv},
+arxivId = {1809.05165},
+author = {Wang, Siyue and Wang, Xiao and Zhao, Pu and Wen, Wujie and Kaeli, David and Chin, Peter and Lin, Xue},
+doi = {10.1145/3240765.3264699},
+eprint = {1809.05165},
+file = {:home/bouchardet/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Wang et al. - 2018 - Defensive Dropout for Hardening Deep Neural Networks under Adversarial Attacks(2).pdf:pdf},
+isbn = {9781450359504},
+mendeley-groups = {INF2710,INF2710/systematicMapping/arXiv},
+title = {{Defensive Dropout for Hardening Deep Neural Networks under Adversarial Attacks}},
+url = {https://doi.org/10.1145/3240765.3264699 http://arxiv.org/abs/1809.05165{\%}0Ahttp://dx.doi.org/10.1145/3240765.3264699},
+year = {2018}
+}
+
+
+@article{scikit-learn,
+ title={Scikit-learn: Machine Learning in {P}ython},
+ author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+ journal={Journal of Machine Learning Research},
+ volume={12},
+ pages={2825--2830},
+ year={2011}
+}
+  
+
+@misc{tensorflow2015-whitepaper,
+title={{TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
+url={http://tensorflow.org/},
+note={Software available from tensorflow.org},
+author={
+    Mart\'{\i}n~Abadi and
+    Ashish~Agarwal and
+    Paul~Barham and
+    Eugene~Brevdo and
+    Zhifeng~Chen and
+    Craig~Citro and
+    Greg~S.~Corrado and
+    Andy~Davis and
+    Jeffrey~Dean and
+    Matthieu~Devin and
+    Sanjay~Ghemawat and
+    Ian~Goodfellow and
+    Andrew~Harp and
+    Geoffrey~Irving and
+    Michael~Isard and
+    Yangqing Jia and
+    Rafal~Jozefowicz and
+    Lukasz~Kaiser and
+    Manjunath~Kudlur and
+    Josh~Levenberg and
+    Dan~Man\'{e} and
+    Rajat~Monga and
+    Sherry~Moore and
+    Derek~Murray and
+    Chris~Olah and
+    Mike~Schuster and
+    Jonathon~Shlens and
+    Benoit~Steiner and
+    Ilya~Sutskever and
+    Kunal~Talwar and
+    Paul~Tucker and
+    Vincent~Vanhoucke and
+    Vijay~Vasudevan and
+    Fernanda~Vi\'{e}gas and
+    Oriol~Vinyals and
+    Pete~Warden and
+    Martin~Wattenberg and
+    Martin~Wicke and
+    Yuan~Yu and
+    Xiaoqiang~Zheng},
+  year={2015},
+}
+
+@article { lecun-98,
+original =    "orig/lecun-98.ps.gz",
+author = 	"LeCun, Y. and Bottou, L. and Bengio, Y. and Haffner, P.",
+title = 	"Gradient-Based Learning Applied to Document Recognition",
+journal =	"Proceedings of the IEEE",
+month =         "November",
+volume =        "86",
+number =        "11",
+pages =         "2278-2324",
+year =		1998
+}
+
+@article{lecun-mnisthandwrittendigit-2010,
+  added-at = {2010-06-28T21:16:30.000+0200},
+  author = {LeCun, Yann and Cortes, Corinna},
+  biburl = {https://www.bibsonomy.org/bibtex/2935bad99fa1f65e03c25b315aa3c1032/mhwombat},
+  groups = {public},
+  howpublished = {http://yann.lecun.com/exdb/mnist/},
+  interhash = {21b9d0558bd66279df9452562df6e6f3},
+  intrahash = {935bad99fa1f65e03c25b315aa3c1032},
+  keywords = {MSc _checked character_recognition mnist network neural},
+  lastchecked = {2016-01-14 14:24:11},
+  timestamp = {2016-07-12T19:25:30.000+0200},
+  title = {{MNIST} handwritten digit database},
+  url = {http://yann.lecun.com/exdb/mnist/},
+  username = {mhwombat},
+  year = 2010
+}
+
+@article{DBLP,
+  author    = {Dan C. Ciresan and
+               Ueli Meier and
+               J{\"{u}}rgen Schmidhuber},
+  title     = {Multi-column Deep Neural Networks for Image Classification},
+  journal   = {CoRR},
+  volume    = {abs/1202.2745},
+  year      = {2012},
+  url       = {http://arxiv.org/abs/1202.2745},
+  archivePrefix = {arXiv},
+  eprint    = {1202.2745},
+  timestamp = {Mon, 13 Aug 2018 16:47:05 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1202-2745},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}

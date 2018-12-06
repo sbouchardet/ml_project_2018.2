@@ -1,0 +1,37 @@
+\begin{thebibliography}{1}
+
+\bibitem{DBLP}
+Dan~C. Ciresan, Ueli Meier, and J{\"{u}}rgen Schmidhuber.
+\newblock Multi-column deep neural networks for image classification.
+\newblock {\em CoRR}, abs/1202.2745, 2012.
+
+\bibitem{FredAgarap2017}
+Abien~M {Fred Agarap}.
+\newblock {An Architecture Combining Convolutional Neural Network (CNN) and
+  Support Vector Machine (SVM) for Image Classification}.
+\newblock 2017.
+
+\bibitem{lecun-mnisthandwrittendigit-2010}
+Yann LeCun and Corinna Cortes.
+\newblock {MNIST} handwritten digit database.
+\newblock 2010.
+
+\bibitem{Mahmoud2014}
+Karim~M Mahmoud.
+\newblock {Handwritten Digits Recognition using Deep Convolutional Neural
+  Network: An Experimental Study using EBlearn}.
+\newblock pages 3--6, 2014.
+
+\bibitem{Saavedra2014}
+Jose~M Saavedra.
+\newblock {Handwritten Digit Recognition Based on Pooling SVM-Classifiers Using
+  Orientation and Concavity Based Features}.
+\newblock Technical report, 2014.
+
+\bibitem{Sharma2015}
+Anuj Sharma.
+\newblock {A combined static and dynamic feature extraction technique to
+  recognize handwritten digits}.
+\newblock {\em Vietnam Journal of Computer Science}, 2(3):133--142, 2015.
+
+\end{thebibliography}
